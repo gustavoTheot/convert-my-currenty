@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Currenty Convert</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="fields">
+                <div class="fieldInput">
+                    <div class="myOptionCurrency">
+                        <select name="currency" id="currency" class="selectionMyCurrency">
+                            <option value=""></option>
+                            <option value="BRL">BRL</option>
+                            <option value="EUR">EUR</option>
+                            <option value="USD">USD</option>
+                        </select>
+                    </div>
+        
+                    <div class="myCurrency">
+                        <input type="text" placeholder="Value" class="inputMyCurrency">
+                    </div>
+                </div>
+        
+                <div class="fieldDisplay">
+                    <div class="myOptionConvert">
+                        <select name="" id="" class="selectionConvertCurrency">
+                            <option value=""></option>
+                            <option value="BRL">BRL</option>
+                            <option value="EUR">EUR</option>
+                            <option value="USD">USD</option>
+                        </select>
+                    </div>
+        
+                    <div class="secondInput">
+                        <input class="display" placeholder="0" disabled>
+                    </div>
+                </div>
+            </div>
+    
+            <input type="submit" class="convert" value="Convert">
+        </form>
+    </div>
+    
+    <script src="./js/index.js"></script>
+</body>
+</html>

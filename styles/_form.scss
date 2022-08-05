@@ -1,0 +1,56 @@
+form{
+    width: 800px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .fields{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .fieldInput, .fieldDisplay{
+        width: 350px;
+        height: 200px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .myOptionCurrency, .myOptionConvert, .myCurrency , .secondInput{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .selectionMyCurrency, .inputMyCurrency, .selectionConvertCurrency, .display{
+        width: 300px;
+        height: 60px;
+        border: none;
+        background-color: white;
+
+        outline: none;
+    }
+
+    .selectionConvertCurrency, .selectionMyCurrency{
+        border-radius: 10px 10px 0 0;
+        padding: 10px 10px 10px 20px;
+    }
+
+    .inputMyCurrency, .display{
+        padding: 10px 10px 10px 20px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .convert{
+        width: 180px;
+        height: 30px;
+
+        border: none;
+        border-radius: 10px;
+    }
+}
